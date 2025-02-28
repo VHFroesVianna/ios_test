@@ -1,0 +1,22 @@
+{
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:dnmcForms}",
+      "name": "Debug dnmcForms",
+      "program": "${workspaceFolder:dnmcForms}/.build/debug/dnmcForms",
+      "preLaunchTask": "swift: Build Debug dnmcForms"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:dnmcForms}",
+      "name": "Release dnmcForms",
+      "program": "${workspaceFolder:dnmcForms}/.build/release/dnmcForms",
+      "preLaunchTask": "swift: Build Release dnmcForms"
+    }
+  ]
+}
